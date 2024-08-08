@@ -34,7 +34,7 @@ const chartProperties = {
 };
 
 // Step 2: Create the chart with defined properties and bind it to the DOM element.
-const domElement = document.getElementById('tvchart');
+const domElement = document.getElementById('candleStick');
 const chart = LightweightCharts.createChart(domElement, chartProperties);
 
 // Step 3: Add the CandleStick Series.
